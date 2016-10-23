@@ -19,6 +19,9 @@ var grammar = {
         inwhatPlace: ["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua & Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia & Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo","Congo Democratic Republic","Costa Rica","Cote D'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic","East Timor","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","South Koread","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macedonia","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar (Burma)","Namibia","Nauru","Nepal","New Zealand","Nicaragua","Niger","Nigeria","Norway","Oman","Pakistan","Palau","Palestinian State*","Panama","Papua New Guinea","Paraguay","Peru","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Samoa","San Marino","Sao Tome & Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Sudan","Spain","Sri Lanka","St. Kitts & Nevis","St. Lucia","St. Vincent & The Grenadines","Sudan","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","The Netherlands","The Philippines","Togo","Tonga","Trinidad & Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"],
         direction:["North","South","East","West"],
         one10 : ["1","2","3","4","5","6","7","8","9","10"],
+        zeroto20 : ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20"],
+        relativeAmount : ["some","a wee bit of","major","a lot of","shitloads of"],
+        valueJudgement : ["glorified looting","godawful, eh?","pointless","poorly done","soaked in bloodshed"],
 
         digOrg : ["Time Services", "Graham University", "Archaeology Awesome Inc", "East South East Archaeology", "South Harmon Institute of Technology Archaeology Unit", "Tiny Archae Field Schools Inc", "SilverBack Archaeology", "MGSE Archeology"],
         hiredPhrase : ["commissioned","hired","engaged","given a permit","contracted"],
@@ -27,14 +30,16 @@ var grammar = {
 
         whoDug : ["#mc# was #hiredPhrase# to #excavatePhrase# at #digSite#, working under the auspices of #underAuspices#. The #mc# team was lead by Dr. #projectLead#. Funding was generously provided by the #lastName# Foundation."],
         reasonWhy : ["new highway scheme", "hydro-electric dam", "housing scheme"],
-        researchQuestion : ["#projectLead# had a hankering to #holiday#, so an excuse concerning a #reasonWhy# was cooked up to cover it."],
+        researchQuestion : ["#projectLead# had a hankering to #holiday#, so an excuse concerning a #excuse# was cooked up to cover it."],
         holiday : ["sit on the beach","drink beer","hang out with students","launder money","stay in a nice hotel","torment lost souls"],
 
+
         introPara : ["<h1>#title#</h1><br><h2>Introduction</h2><p>#whoDug#"],
-        reasonPara : ["The work became necessary because #reasonWhy.a# will shortly be built in the region. (Actually, since no one will ever read this, #firstName# thinks it is because #researchQuestion#.) Thus, #digSite# was in immediate danger of being lost. The team was composed of #one10# student volunteers."],
+        reasonPara : ["The work became necessary because #excuse.a# will shortly be built in the region. (Actually, since no one will ever read this, #firstName# thinks it is because #researchQuestion#.) Thus, #digSite# was in immediate danger of being lost. The team was composed of #one10# student volunteers. (But the truth is buried. How many lives were ruined? What ever happened to #firstName#? Please, if you read this, talk to #lastName#!)"],
+        previousResearchpara : ["#relativeAmount.capitalize# archaeology was conducted by #lastName# in 19#zeroto20#, but it was #valueJudgement#."],
 
-        report : ["#introPara# #reasonPara#"],
+        report : ["#introPara# #reasonPara# #previousResearchpara#"],
 
-        origin : ["#[digSite:#weirdPlace#][mc:#digOrg#][projectLead:#fullName#]report#"]
+        origin : ["#[digSite:#weirdPlace#][mc:#digOrg#][projectLead:#fullName#][excuse:#reasonWhy#]report#"]
 
 }
