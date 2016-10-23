@@ -1,0 +1,16 @@
+/*the background*/
+body {
+  margin: 0 auto;
+  background-color: #CDCDCD;
+  text-align: left;
+}
+
+/*the title*/
+h1 {
+}
+
+/*text box*/
+#content {
+	width: 80%;
+	margin: 30px;
+}

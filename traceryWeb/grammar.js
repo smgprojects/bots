@@ -1,0 +1,40 @@
+/**
+ * @author Shawn
+ */
+
+var grammar = {
+
+        title : ["A Report on the Archaeological Research at the #digSite# Site, #direction# #inwhatPlace#  <p> by #firstName# #lastName#"],
+
+        firstSyl : "B C D F G H J K L M N P Qu R S T V W X Y Z St Fl Bl Pr Kr Ll Chr Sk Br Sth Ch Dhr Dr Sl Sc Sh Thl Thr Pl Fr Phr Phl Wh".split(" "),
+        middleSyl : "an all ar art air aean af av ant app ab er en eor eon ent enth irt ian ion iont ill il ipp in is it ik ob ov orb oon ion uk uf un ull urk estr antr okl ackl".split(" "),
+        lastSyl : "a ia ea u y en am is on an o io i el ios ax ox ix ex izz ius ian ean ekang anth".split(" "),
+
+        weirdPlace : ["#firstSyl##middleSyl##lastSyl#", "#firstSyl##lastSyl#", "#firstSyl##lastSyl#-#firstSyl##lastSyl#"],
+
+        firstName: ["Ella","Sarah","Frank","Trevor","Evan","Susan","Anton","Clarence","Art","Mina","Stephen","Sophie","George","Kelly","Arnold","Maurizio"],
+        lastName: ["Smith","Johnson","Williams","Brown","Jones","Miller","Davis","Garcia","Rodriguez","Wilson","Martinez","Anderson","Taylor","Thomas","Hernandez","Moore","Martin","Jackson","Thompson","White","Lopez","Lee","Gonzalez","Harris"],
+
+        fullName: ["#firstName# #lastName#"],
+        inwhatPlace: ["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua & Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia & Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo","Congo Democratic Republic","Costa Rica","Cote D'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic","East Timor","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","South Koread","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macedonia","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar (Burma)","Namibia","Nauru","Nepal","New Zealand","Nicaragua","Niger","Nigeria","Norway","Oman","Pakistan","Palau","Palestinian State*","Panama","Papua New Guinea","Paraguay","Peru","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Samoa","San Marino","Sao Tome & Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Sudan","Spain","Sri Lanka","St. Kitts & Nevis","St. Lucia","St. Vincent & The Grenadines","Sudan","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","The Netherlands","The Philippines","Togo","Tonga","Trinidad & Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"],
+        direction:["North","South","East","West"],
+        one10 : ["1","2","3","4","5","6","7","8","9","10"],
+
+        digOrg : ["Time Services", "Graham University", "Archaeology Awesome Inc", "East South East Archaeology", "South Harmon Institute of Technology Archaeology Unit", "Tiny Archae Field Schools Inc", "SilverBack Archaeology", "MGSE Archeology"],
+        hiredPhrase : ["commissioned","hired","engaged","given a permit","contracted"],
+        excavatePhrase : ["excavate","dig","survey","assess","perform a watching brief","do desktop survey","do stage III assessment","operate a field school"],
+        underAuspices : ["Graham University","Watrall University","Kansa University","Pett University","The Digital Archaeology Institute"],
+
+        whoDug : ["#mc# was #hiredPhrase# to #excavatePhrase# at #digSite#, working under the auspices of #underAuspices#. The #mc# team was lead by Dr. #projectLead#. Funding was generously provided by the #lastName# Foundation."],
+        reasonWhy : ["new highway scheme", "hydro-electric dam", "housing scheme"],
+        researchQuestion : ["#projectLead# had a hankering to #holiday#, so an excuse concerning a #reasonWhy# was cooked up to cover it."],
+        holiday : ["sit on the beach","drink beer","hang out with students","launder money","stay in a nice hotel","torment lost souls"],
+
+        introPara : ["<h1>#title#</h1><br><h2>Introduction</h2><p>#whoDug#"],
+        reasonPara : ["The work became necessary because #reasonWhy.a# will shortly be built in the region. (Actually, since no one will ever read this, #firstName# thinks it is because #researchQuestion#.) Thus, #digSite# was in immediate danger of being lost. The team was composed of #one10# student volunteers."],
+
+        report : ["#introPara# #reasonPara#"],
+
+        origin : ["#[digSite:#weirdPlace#][mc:#digOrg#][projectLead:#fullName#]report#"]
+
+}
