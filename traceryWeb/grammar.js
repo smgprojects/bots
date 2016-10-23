@@ -32,10 +32,11 @@ var grammar = {
         reasonWhy : ["new highway scheme", "hydro-electric dam", "housing scheme"],
         researchQuestion : ["#projectLead# had a hankering to #holiday#, so an excuse concerning a #excuse# was cooked up to cover it."],
         holiday : ["sit on the beach","drink beer","hang out with students","launder money","stay in a nice hotel","torment lost souls"],
-
+        outThere : ["out there","buried","hidden","crying out for vengeance","a horrible thing","too awful for #firstName# to contemplate"],
+        fingered : ["fingered","talked to","arrested","cautioned","ignored","framed"],
 
         introPara : ["<h1>#title#</h1><br><h2>Introduction</h2><p>#whoDug#"],
-        reasonPara : ["The work became necessary because #excuse.a# will shortly be built in the region. (Actually, since no one will ever read this, #firstName# thinks it is because #researchQuestion#.) Thus, #digSite# was in immediate danger of being lost. The team was composed of #one10# student volunteers. (But the truth is buried. How many lives were ruined? What ever happened to #firstName#? Please, if you read this, talk to #lastName#!)"],
+        reasonPara : ["The work became necessary because #excuse.a# will shortly be built in the region. (Actually, since no one will ever read this, #firstName# thinks it is because #researchQuestion#.) Thus, #digSite# was in immediate danger of being lost. The team was composed of #one10# student volunteers. (But the truth is #outThere#. How many lives were ruined? What ever happened to #firstName#? Please, if you read this, talk to #lastName#! The police only ever #fingered# #lastName#.)"],
         previousResearchpara : ["#relativeAmount.capitalize# archaeology was conducted by #lastName# in 19#zeroto20#, but it was #valueJudgement#."],
 
         report : ["#introPara# #reasonPara# #previousResearchpara#"],
