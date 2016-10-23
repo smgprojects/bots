@@ -35,7 +35,7 @@ var grammar = {
         holiday : ["sit on the beach","drink beer","hang out with students","have sex","launder money","stay in a nice hotel","torment lost souls","release eldritch forces into the world"],
         outThere : ["out there","buried","hidden","crying out for vengeance","a horrible thing","too awful for #firstName# to contemplate"],
         fingered : ["fingered","talked to","arrested","cautioned","ignored","framed"],
-        number : ["one","two","three","four","five"],
+        number : ["six","two","three","four","five"],
         deity : ["Azathoth","Bastet","Cthugha","Cthulhu","Cthylla","Cxaxukluth","Cyäegha","Dagon","Ghatanothoa","Ghisguth","Gla'aki","Great Old One","Hastur"],
         spacetimeRift : ["rift","interdimensional portal","hellmouth","gaping pit of hell","wormhole","rip in the fabric of space time"],
         eaten : ["eaten","possessed by #deity#","dragged into the #spacetimeRift#","sucked into the abyss","driven into gibbering madness by #deity#","ran away from site to become an accountant"],
