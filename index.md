@@ -1,3 +1,5 @@
+<iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/robot-invasion-pIMlKqgdZgvo4">via GIPHY</a></p>
+
 # Introduction to Twitterbots
 
 In this workshop, we'll start by making simple twitter bots using the [Tracery.io](http://tracery.io) generative grammar, and hosting them at [Cheap Bots Done Quick](http://cheapbotsdonequick.com)
@@ -31,16 +33,22 @@ And then, we might explore some of [Stefan's bot templates](https://stefan.glitc
 # Resources
 
 + **Instructions** I turned my notes prepping for this workshop into a tutorial for the programming historian - [follow along here](https://programminghistorian.github.io/ph-submissions/lessons/intro-to-twitterbots) (if using Chrome and the page doesn't look very appealing, see if Chrome is 'blocking unsafe scripts' in the right hand side of your address bar. Unblock.)
+
 + **Hypothesis** You don't have to use this, but it's a very useful Chrome plugin that allows you to annotate web text, and to share those annotations. If you [installed it](https://hypothes.is/), and then used it to mark up my tutorial as you go through it, I would be most grateful. Alternatively, if you'd rather not install another plugin, you can read my [instructions for bot making](https://via.hypothes.is/https://programminghistorian.github.io/ph-submissions/lessons/intro-to-twitterbots) with the annotation layer already pre-loaded. It still requires a login/account to use.
+
 + **list tool** [delim.co](http://delim.co/#) will take a list and turn it into comma delimited text
+
 + **tracery editor(s)** We'll begin with [this editor](http://tracery.io/editor/) but there are others out there, eg [this one](http://brightspiral.com/tracery/) and [this one](https://beaugunderson.com/tracery-writer/#) 
+
 + Kate Compton's **[original interactive Tracery tutorial](http://www.crystalcodepalace.com/traceryTut.html)**
+
 + Allison Parish's **[Tracery tutorial](http://air.decontextualize.com/tracery/)**
+
 + See also all of the resources at [Botwiki](https://botwiki.org/) 
 
-The Tracery source code is [here](https://github.com/galaxykate/tracery) and you can use it to generate everything from [games](http://squinky.me/2015/01/19/new-game-interruption-junction/) to [automatically generated novels](http://www.brightspiral.com/)
+The Tracery source code is [here](https://github.com/galaxykate/tracery) and you can use it to generate everything from [games](http://squinky.me/2015/01/19/new-game-interruption-junction/) to [automatically generated novels](http://www.brightspiral.com/) if you know a bit about how to build websites etc. We'll talk about this.
 
-# Important Readings on Bots and Why We Do This
+# Useful Readings
 
 SAMUEL WOOLLEY, DANAH BOYD, MEREDITH BROUSSARD, MADE. 2016. How to think about bots. [Motherboard](https://motherboard.vice.com/en_us/article/how-to-think-about-bots)
 
