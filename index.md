@@ -1,4 +1,4 @@
-<iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/robot-invasion-pIMlKqgdZgvo4">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="120" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/robot-invasion-pIMlKqgdZgvo4">via GIPHY</a></p>
 
 # Introduction to Twitterbots
 
