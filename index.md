@@ -1,6 +1,6 @@
 # Introduction to Twitterbots
 
-<iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="120" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> In this workshop, we'll start by making simple twitter bots using the [Tracery.io](http://tracery.io) generative grammar, and hosting them at [Cheap Bots Done Quick](http://cheapbotsdonequick.com)
+<iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="120" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="120" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><iframe src="https://giphy.com/embed/pIMlKqgdZgvo4" width="120" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> In this workshop, we'll start by making simple twitter bots using the [Tracery.io](http://tracery.io) generative grammar, and hosting them at [Cheap Bots Done Quick](http://cheapbotsdonequick.com)
 
 We'll then make them more complicated, by allowing them to answer back to mentions.
 
