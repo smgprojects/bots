@@ -25,5 +25,5 @@ var grammar = {
         year : ["234", "1432", "AD 79", "400 BC", "705 BC", "1066", "410", "1867"],
         fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> <br> Prologue <br><br> #direction# #inwhatPlace# #year# #prologue# #chapter1#"],
         
-origin : ["#[storyLocale:#weirdPlace#][hero:#fullName#]fullstory#"]  
+origin : ["#[storyLocale:#weirdPlace#][hero:#fullName#]fullStory#"]  
 }
