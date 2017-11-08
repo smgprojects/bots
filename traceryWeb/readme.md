@@ -1,6 +1,4 @@
-# all you need for a generative grammar'd web page
 
-1. replace 'grammar.js' with your own grammar.
-2. put this whole thing on a server somewhere.
+I used the template available at [http://cmuems.com/2015b/tracery-twitterbots/](http://cmuems.com/2015b/tracery-twitterbots/) to make this archaeological site report generator.
 
-Tracery was made by [GalaxyKate](https://github.com/galaxykate/tracery/tree/tracery2)
+These site reports are those being written by the characters in the [@tinyarchae](http://twitter.com/tinyarchae) procedurally generated soap opera.
