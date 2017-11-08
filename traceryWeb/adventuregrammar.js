@@ -22,6 +22,8 @@ var grammar = {
         title : ["#colour# #people# Gold","#hero# and The Treasure of #weirdPlace#"],
         colour : ["Red","Green","Yellow","Blue","Azure","Topaz","Carnelian"],
         people : ["Mayan","Roman","Greek","Spartan","Brigantine","Atlantean","Aztec","Prester John's","Etruscan","Pompeian"],
-
-origin : ["#[storyLocale:#weirdPlace#][hero:#fullName#] #introdata# <h3> In Homage to Clive Cussler </h3> <br> Prologue <br> #direction# #inwhatPlace# "]  
+        year : ["234", "1432", "AD 79", "400 BC", "705 BC", "1066", "410", "1867"],
+        fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> <br> Prologue <br><br> #direction# #inwhatPlace# #year# #prologue# #chapter1#"],
+        
+origin : ["#[storyLocale:#weirdPlace#][hero:#fullName#]fullstory#"]  
 }
