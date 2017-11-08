@@ -14,5 +14,5 @@ title : ["#colour# #people# Gold"],
 colour : ["Red","Green","Yellow","Blue","Azure","Topaz","Carnelian"],
 people : ["Mayan","Roman","Greek","Spartan","Brigantine","Atlantean","Aztec","Prester John's","Etruscan","Pompeian"],
 
-origin : ["#introPara# <h3> In Homage to Clive Cussler </h3> <br> <h2> Prologue </h2> #partoneorigin#" <br> #parttwoorigin#"]  
+origin : ["#introPara# <h3> In Homage to Clive Cussler </h3> <br> <h2> Prologue </h2> #partoneorigin# <br> #parttwoorigin#"]  
 }
