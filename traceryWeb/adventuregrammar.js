@@ -24,7 +24,7 @@ var grammar = {
         people : ["Mayan","Roman","Greek","Spartan","Brigantine","Atlantean","Aztec","Prester John's","Etruscan","Pompeian"],
         year : ["234", "1432", "AD 79", "400 BC", "705 BC", "1066", "410", "1867"],
         
-     fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> #credits# <br> <h2>Prologue</h2> <br><br> #direction# #inwhatPlace# #year# <h2> #prologue# #markov# #markov# <br>#insertpictures#<h2> The Present Day </h2><br><br> #markov2# #char-rnn# <br>#insertpictures# <h2>#inwhatPlace#</h2><br> #markov3# #markov3# #insertpictures# #markov3# <h2>#inwhatPlace#</h2> #markov2# #markov3# #insertpictures# #char-rnn# <h2>#inwhatPlace#</h2> #char-rnn# #char-rnn#"],	
+     fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> #credits# <br> <h2>Prologue</h2> <br><br> #direction# #inwhatPlace# #year# <br> #prologue# #markov# #markov# <br>#insertpictures#<h2> The Present Day </h2><br><br> #markov2# #char-rnn# <br>#insertpictures# <h2>#inwhatPlace#</h2><br> #markov3# #markov3# #insertpictures# #markov3# <h2>#inwhatPlace#</h2> #markov2# #markov3# #insertpictures# #char-rnn# <h2>#inwhatPlace#</h2> #char-rnn# #char-rnn#"],	
 	
 	credits : ["<i>Built with a combination of Tracery and Serin Delauney's <a href='https://serin-delaunay.github.io/cheapmarkovstracedquick/'>cheap markovs traced quick</a> tool from Procjam 2017, Gutenberg Project e-books, and the opening scene of a Sam & Remi Fargo novel</i><br>"],
 
