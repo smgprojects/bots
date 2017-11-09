@@ -24,8 +24,8 @@ var grammar = {
         people : ["Mayan","Roman","Greek","Spartan","Brigantine","Atlantean","Aztec","Prester John's","Etruscan","Pompeian"],
         year : ["234", "1432", "AD 79", "400 BC", "705 BC", "1066", "410", "1867"],
         
-        fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> #credits# <br> <b>Prologue</b> <br><br> #direction# #inwhatPlace# #year# #prologue# <br> #markov# <br>#insertpictures#<h2> The Present Day </h2><br><br> #markov2# #insertpictures# <b>#inwhatPlace#</b><br> #markov3# #insertpictures#"],
-        
+       fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> #credits# <br> <b>Prologue</b> <br><br> #direction# #inwhatPlace# #year# #prologue# <br> #markov# <br>#insertpictures#<h2> The Present Day </h2><br><br> #markov2# <br>#insertpictures# <h2>#inwhatPlace#</h2><br> #markov3# #markov3# #insertpictures# #markov3# #markov2# #markov3# #insertpictures#"],
+	
 	credits : ["<i>Built with a combination of Tracery and Serin Delauney's <a href='https://serin-delaunay.github.io/cheapmarkovstracedquick/'>cheap markovs traced quick</a> tool from Procjam 2017, Gutenberg Project e-books, and the opening scene of a Sam & Remi Fargo novel</i><br>"],
 
 	origin : ["#[storyLocale:#weirdPlace#][hero:#fullName#]fullStory#"],
