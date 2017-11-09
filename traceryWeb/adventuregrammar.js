@@ -24,7 +24,7 @@ var grammar = {
         people : ["Mayan","Roman","Greek","Spartan","Brigantine","Atlantean","Aztec","Prester John's","Etruscan","Pompeian"],
         year : ["234", "1432", "AD 79", "400 BC", "705 BC", "1066", "410", "1867"],
         
-     fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> #credits# <br> <h2>Prologue</h2> <br><br> #direction# #inwhatPlace# #year# <br> #prologue# #markov# #markov# <br>#insertpictures#<h2> The Present Day </h2><br><br> #markov2# #char-rnn# <br>#insertpictures# <h2>#inwhatPlace#</h2><br> #markov3# #markov3# #insertpictures# #markov3# <h2>#inwhatPlace#</h2> #markov2# #markov3# #insertpictures# #char-rnn# <h2>#inwhatPlace#</h2> #char-rnn# #char-rnn#"],		
+     fullStory : ["#introdata# <h3> In Homage to Clive Cussler </h3> #credits# <br> <h2>Prologue</h2> #direction# #inwhatPlace# #year# <br> #prologue# #markov# #markov# <br>#insertpictures#<h2> The Present Day </h2> #markov2# #char-rnn# <br>#insertpictures# <h2>#inwhatPlace#</h2><br> #markov3# #markov3# #insertpictures# #markov3# <h2>#inwhatPlace#</h2> #markov2# #markov3# #insertpictures# #char-rnn# <h2>#inwhatPlace#</h2> #char-rnn# #char-rnn#"],		
 	credits : ["<i>Built with a combination of Tracery and Serin Delauney's <a href='https://serin-delaunay.github.io/cheapmarkovstracedquick/'>cheap markovs traced quick</a> tool from Procjam 2017, Gutenberg Project e-books, and the opening scene of a Sam & Remi Fargo novel</i><br>"],
 
 	origin : ["#[storyLocale:#weirdPlace#][hero:#fullName#]fullStory#"],
@@ -36,18 +36,20 @@ var grammar = {
         
         "reactionURL": [
 		"https://c2.staticflickr.com/4/3707/11006936494_d97d44763e_m.jpg",
-		"https://c2.staticflickr.com/8/7312/11128508335_38191f0d3d_m.jpg",
 		"https://c2.staticflickr.com/8/7354/11131233955_fdb24dc3ac_m.jpg",
 		"https://c2.staticflickr.com/4/3755/11114592606_dbd5f760fb_m.jpg",
-		"https://c2.staticflickr.com/6/5523/11107579966_e232f3a18f_m.jpg",
 		"https://c2.staticflickr.com/6/5479/11232638046_e401b00832_b.jpg",
 		"https://c1.staticflickr.com/3/2872/11141536145_54e78f8e53_m.jpg",
 		"https://c2.staticflickr.com/4/3790/11250093255_1e93e2f4ac_m.jpg",
-		"https://c2.staticflickr.com/4/3780/11249961524_e3dc4c59a0_m.jpg",
-		"https://c2.staticflickr.com/6/5490/11301482866_3dbdaa6cbd_m.jpg",
 		"https://c2.staticflickr.com/6/5492/11299082635_21af8ae1a2_m.jpg",
 		"https://c2.staticflickr.com/4/3831/11169692923_eee96ef4a1_m.jpg",
-		"https://upload.wikimedia.org/wikipedia/commons/f/fd/Cardiff_giant_exhumed_1869.jpg"
+		"https://upload.wikimedia.org/wikipedia/commons/f/fd/Cardiff_giant_exhumed_1869.jpg",
+		"https://raw.githubusercontent.com/smgprojects/bots/master/tinyarchaemaps/map0.png",
+		"https://raw.githubusercontent.com/smgprojects/bots/master/tinyarchaemaps/map1.png",
+		"https://raw.githubusercontent.com/smgprojects/bots/master/tinyarchaemaps/map2.png",
+		"https://raw.githubusercontent.com/smgprojects/bots/master/tinyarchaemaps/map3.png",
+		"https://raw.githubusercontent.com/smgprojects/bots/master/tinyarchaemaps/map5.png"
+		
 	],
 	"newsPhoto": [
 		"<br><img class='media' src='#reactionURL#' width='220' id='professor'><br>"
