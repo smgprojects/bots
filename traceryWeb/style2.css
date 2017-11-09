@@ -1,4 +1,3 @@
-$body-color: hsla(30, 95%, 90%, 1);
 
 @font-face {
     font-family: 'IM Fell French Canon Pro';
@@ -10,7 +9,7 @@ $body-color: hsla(30, 95%, 90%, 1);
 body { 
   font-family: IM Fell French Canon Pro;
   scroll-behavior: smooth;
-  background: $body-color  
+  background: url(dust_scratches.png);  
   margin: 3rem;
   > p:first-of-type, >p:last-of-type {
     font-style: italic;
