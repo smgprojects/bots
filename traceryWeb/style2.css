@@ -1,3 +1,5 @@
+$body-color: hsla(30, 95%, 90%, 1);
+
 @font-face {
     font-family: 'IM Fell French Canon Pro';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2') format('woff2'),
@@ -8,6 +10,7 @@
 body { 
   font-family: IM Fell French Canon Pro;
   scroll-behavior: smooth;
+  background: $body-color  
   margin: 3rem;
   > p:first-of-type, >p:last-of-type {
     font-style: italic;
